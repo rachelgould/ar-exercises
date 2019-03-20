@@ -3,13 +3,6 @@ require_relative '../setup'
 puts "Exercise 1"
 puts "----------"
 
-# def initialize(name, annual_revenue, mens_apparel, womens_apparel)
-# @name = name
-# @annual_revenue = annual_revenue
-# @mens_apparel = mens_apparel
-# @womens_apparel = womens_apparel
-# end
-
 burnaby = Store.create(
   name: "Burnaby", 
   annual_revenue: 300000, 
